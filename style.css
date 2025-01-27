@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: aquamarine;
+}
+.navBar{
+    background-color: #fff;
+}
+.navBar ul{
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+.navBar ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    color: #00034e;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box1{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.or{
+    color: #00034e;
+}
+.box2{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer; 
+}
+/* .rankBox{
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 10px;
+} */
+
+
+.rankBox {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.rankBox h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.rankItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.rankItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rankItem img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.rankItem p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
